@@ -13,7 +13,7 @@ export type Database = {
         Row: {
           description: string | null
           id: string
-          image_url: string | null
+          image_url: string
           name: string | null
           price: number | null
         }
